@@ -6,9 +6,9 @@
         $(window).scroll(function(){
 
           if($(window).scrollTop()>300){
-            $('nav').addClass('blue');
+            $(navID).addClass("blue", 10000, "easeInBack");
           }else{
-            $('nav').removeClass('blue');
+            $(navID).removeClass("blue", 10000, "easeInBack");
           }
 
         });
