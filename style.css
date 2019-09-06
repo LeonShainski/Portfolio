@@ -13,6 +13,7 @@ h3 {
   text-shadow: 3px 2px #171007;
   position: relative;
   text-align: center;
+  top: -800px;
   padding-top: 200px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -20,16 +21,27 @@ h3 {
   color: #ba6b09;
   position: relative;
   text-align: center;
+  top: -750px;
   padding-top: 100px;
   font-family: "Courier New", Courier, monospace;
 
 }
 
-#splashPageArea {
+#parallax {
   padding-top: 50px;
   text-shadow: 3px 2px #171007;
-  background-image: url(landing2.jpg);
-  background-size: cover;
+  /*background-image: url(landing2.jpg);
+  background-size: cover;*/
   width: 100%;
   height: 800px;
+  z-index: 0;
+}
+.title-text {
+  border-style: solid;
+  z-index: 1;
+}
+.sub-title-text {
+  border-style: solid;
+  border-color: red;
+  z-index: 2;
 }
