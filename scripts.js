@@ -5,11 +5,19 @@
 
         $(window).scroll(function(){
 
-          if($(window).scrollTop()>300){
-            $(navID).addClass("blue", 10000, "easeInBack");
-          }else{
-            $(navID).removeClass("blue", 10000, "easeInBack");
+          if($(window).scrollTop()>600){
+            $(navID).addClass("amber", 10000, "easeInBack");
+          }else if($(window).scrollTop()<600) {
+            $(navID).removeClass("amber", 10000, "easeInBack");
+          }else if ($(window).scrollTop()>800) {
+            $(skills).addClass("black", 10000, "easeInBack");
+            //last bit not working. Im trying to make the navigation bar items change
+            //Depending on where you are on the page. If you are hovering over skills,
+            //The skils tab should have the grey background (not just home)
           }
+
+
+
 
         });
 

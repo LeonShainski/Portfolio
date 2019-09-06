@@ -8,3 +8,28 @@ h3 {
   color: red;
   text-align: center;
 }
+#mainText {
+  color: #ba6b09;
+  text-shadow: 3px 2px #171007;
+  position: relative;
+  text-align: center;
+  padding-top: 200px;
+  font-family: "Courier New", Courier, monospace;
+}
+#mainText2 {
+  color: #ba6b09;
+  position: relative;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Courier New", Courier, monospace;
+
+}
+
+#splashPageArea {
+  padding-top: 50px;
+  text-shadow: 3px 2px #171007;
+  background-image: url(landing2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
