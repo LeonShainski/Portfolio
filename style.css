@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 h1 {
   color: blue;
 }
@@ -27,21 +31,20 @@ h3 {
 
 }
 
-#parallax {
-  padding-top: 50px;
-  text-shadow: 3px 2px #171007;
-  /*background-image: url(landing2.jpg);
-  background-size: cover;*/
-  width: 100%;
-  height: 800px;
-  z-index: 0;
+.main-landing-text {
+  text-align: center;
 }
-.title-text {
-  border-style: solid;
-  z-index: 1;
-}
-.sub-title-text {
-  border-style: solid;
-  border-color: red;
-  z-index: 2;
+
+.parallax {
+  /* The image used */
+  background-image: url("landing2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
