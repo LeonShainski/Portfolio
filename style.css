@@ -1,47 +1,51 @@
-h1 {
-  color: blue;
-}
+
 #footer {
   background-color: black;
 }
-h3 {
-  color: red;
-  text-align: center;
-}
-#mainText {
-  color: #ba6b09;
-  text-shadow: 3px 2px #171007;
-  position: relative;
-  text-align: center;
-  top: -800px;
-  padding-top: 200px;
-  font-family: "Courier New", Courier, monospace;
-}
-#mainText2 {
-  color: #ba6b09;
-  position: relative;
-  text-align: center;
-  top: -750px;
-  padding-top: 100px;
-  font-family: "Courier New", Courier, monospace;
 
-}
 
-#parallax {
+
+.parallax {
+  position: absolute;
   padding-top: 50px;
   text-shadow: 3px 2px #171007;
   /*background-image: url(landing2.jpg);
   background-size: cover;*/
   width: 100%;
-  height: 800px;
-  z-index: 0;
+  height: 100%;
+  margin: 0;
+  background-image: url(landing2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.title-text {
-  border-style: solid;
-  z-index: 1;
+.landing-text {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  color: orange;
+  bottom: 20%;
+  right: 10%;
+  /*float: left;
+  border-style: solid;*/
+
+
 }
-.sub-title-text {
-  border-style: solid;
+
+
+#mainText {
   border-color: red;
-  z-index: 2;
+  border-style: hidden;
+}
+#mainText2 {
+  border-color: blue;
+  border-style: hidden;
+}
+#navID {
+  margin: 0;
+}
+.whatthefuck {
+  border-style: dashed;
+  border-color: green;
 }
